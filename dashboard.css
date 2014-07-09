@@ -4,6 +4,7 @@
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
+  font-family: 'Cabin', sans-serif;
 }
 
 
@@ -51,6 +52,9 @@ body {
   padding-right: 20px;
   padding-left: 20px;
   color:#ffffff;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+
 }
 .nav-sidebar > .active > a,
 .nav-sidebar > li > a:hover,
