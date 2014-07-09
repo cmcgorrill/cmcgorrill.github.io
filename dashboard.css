@@ -37,6 +37,7 @@ body {
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
     background-color: #009C96;
     border-right: 1px solid #eee;
+    color: #fff;
   }
 }
 
@@ -53,8 +54,8 @@ body {
 .nav-sidebar > .active > a,
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
-  color: #fff;
-  background-color: #428bca;
+  color: #009C96;
+  background-color: #fff;
 }
 
 
