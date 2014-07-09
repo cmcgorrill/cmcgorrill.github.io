@@ -37,7 +37,7 @@ body {
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
     background-color: #009C96;
     border-right: 1px solid #eee;
-    color: #fff;
+    color: #ffffff;
   }
 }
 
