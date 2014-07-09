@@ -53,8 +53,8 @@ body {
   color:#ffffff;
 }
 .nav-sidebar > .active > a,
-.nav-sidebar > a:hover,
-.nav-sidebar > a:focus {
+.nav-sidebar > li > a:hover,
+.nav-sidebar > li > a:focus {
   color: #009C96;
   background-color: #fff;
 }
