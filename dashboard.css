@@ -102,12 +102,12 @@ p {
  * Resume Modal
  */
  .modal {
-  margin-left: -15;
+  margin-left: -150;
   width: 300px;
  }
 .modal.fade.in {
   top: 2%;
-  min-width: 309px;
+  min-width: 300px;
 }
 .modal-dialog.modal-xs {
   width: 309px;
