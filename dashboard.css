@@ -109,10 +109,6 @@ p {
   top: 2%;
   width: inherit;
 }
-.modal-dialog.modal-xs {
-  margin-left: -150;
-  width: 300px;
-}
 
 /* -----------------------------------------------
     Extra hidden/visible classes
