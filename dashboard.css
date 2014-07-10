@@ -109,32 +109,22 @@ p {
     Extra hidden/visible classes
 ----------------------------------------------- */
  
-.visible-narrow-desktop {
-  display: none !important;
-}
- 
-@media (min-width: 980px) and (max-width: 1199px) {
-  .visible-narrow-desktop {
-    display: inherit !important;
-  }
-  .hidden-narrow-desktop {
-    display: none !important;
-  }
+@media (min-width: 768px) and (max-width: 979px) {
   .hidden-desktop {
     display: inherit !important;
   }
   .visible-desktop {
+    display: none !important ;
+  }
+  .visible-tablet {
+    display: inherit !important;
+  }
+  .hidden-tablet {
     display: none !important;
   }
 }
- 
+
 @media (max-width: 767px) {
-  .hidden-narrow-desktop {
-    display: inherit !important;
-  }
-  .visible-narrow-desktop {
-    display: none !important;
-  }
   .hidden-desktop {
     display: inherit !important;
   }
