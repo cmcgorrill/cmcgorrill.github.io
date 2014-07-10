@@ -108,9 +108,8 @@ p {
 .modal.fade.in {
   top: 2%;
 }
-.modal-dialog.modal-xs {
-  width: 300px;
-  margin-left: -150px;
+.modal-dialog{
+  width: inherit;
 }
 
 /* -----------------------------------------------
