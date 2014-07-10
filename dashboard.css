@@ -109,7 +109,8 @@ p {
   top: 2%;
 }
 .modal-dialog.modal-xs {
-  width: 309px;
+  width: 300px;
+  margin-left: -150px;
 }
 
 /* -----------------------------------------------
