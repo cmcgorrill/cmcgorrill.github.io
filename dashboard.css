@@ -101,15 +101,9 @@ p {
 /*
  * Resume Modal
  */
- .modal {
-  margin-left: inherit;
-  width: inherit;
- }
+ 
 .modal.fade.in {
   top: 2%;
-}
-.modal-dialog{
-  width: inherit;
 }
 
 /* -----------------------------------------------
