@@ -7,7 +7,6 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
-
 /*
  * Global add-ons
  */
@@ -81,6 +80,14 @@ body {
 }
 .main .page-header {
   margin-top: 0;
+}
+
+.main .page-header .first-name {
+  color: #009C96;
+}
+
+.main .page-header .last-name {
+  color: #000000;
 }
 
 
