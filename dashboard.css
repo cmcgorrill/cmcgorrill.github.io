@@ -82,11 +82,11 @@ body {
   margin-top: 0;
 }
 
-.main .page-header .first-name {
+.main .h1 .first-name {
   color: #009C96;
 }
 
-.main .page-header .last-name {
+.main .h1 .last-name {
   color: #000000;
 }
 
