@@ -102,12 +102,15 @@ p {
  * Resume Modal
  */
  .modal {
-  margin-left: inherit;
-  width: inherit;
+  margin-left: -150;
+  width: 300px;
  }
 .modal.fade.in {
   top: 2%;
-  width: inherit;
+  min-width: 300px;
+}
+.modal-dialog.modal-xs {
+  width: 309px;
 }
 
 /* -----------------------------------------------
