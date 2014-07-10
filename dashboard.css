@@ -93,6 +93,6 @@ body {
 /*
  * Resume Modal
  */
- .modal {
-  top: 30;
- }
+.modal.fade.in {
+  top: 5%;
+}
