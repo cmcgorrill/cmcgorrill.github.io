@@ -101,6 +101,11 @@ p {
 /*
  * Resume Modal
  */
+ .modal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 309px;
+ }
 .modal.fade.in {
   top: 2%;
   min-width: 309px;
