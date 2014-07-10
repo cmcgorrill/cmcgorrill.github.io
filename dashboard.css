@@ -104,6 +104,9 @@ p {
 .modal.fade.in {
   top: 2%;
 }
+.modal-dialog.modal-xs {
+  width: 309px;
+}
 
 /* -----------------------------------------------
     Extra hidden/visible classes
