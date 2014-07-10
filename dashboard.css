@@ -103,6 +103,7 @@ p {
  */
 .modal.fade.in {
   top: 2%;
+  min-width: 309px;
 }
 .modal-dialog.modal-xs {
   width: 309px;
