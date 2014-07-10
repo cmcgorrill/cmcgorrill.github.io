@@ -7,8 +7,16 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
-a {
+a, a:hover {
   color: #009C96;
+}
+
+p {
+  font-size: 16pt;
+}
+
+h1 {
+  position: fixed;
 }
 
 /*
