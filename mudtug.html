@@ -12,8 +12,7 @@
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="dist/cssdashboard.css" rel="stylesheet">
-    <link href="dist/css/header.css" rel="stylesheet">
+    <link href="dashboard.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -29,13 +28,13 @@
     <![endif]-->
   <style id="holderjs-style" type="text/css"></style></head>
 
-  
-    <div class="container-fluid">
+
+      <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="/">Courtney</a></li>
-            <li><a href="/mudtug.html">Mud Tug</a></li>
+            <li><a href="/">Courtney</a></li>
+            <li class="active"><a href="/mudtug.html">Mud Tug</a></li>
             <li><a href="/hamper.html">Hamper</a></li>
             <li><a href="/contact.html">Contact</a></li>
           </ul>
@@ -51,20 +50,19 @@
           
             <l class="first-name">Courtney M<sup>c</sup>G</l><l class="last-name">orrill</l>
           </h1>
-          <a class="pull-left" style="margin-left: 50px; margin-right: 20px;">
-            <img class="media-object visible-desktop" src="images/mudtugme.jpg">
-          </a>
-          <div class="media-body">
-            <h3 class="media-heading">Things To Know</h3>
-              <p>21 years old and originally from Maine. </p>
-              <p>4<sup>th</sup> year Software Engineering student at Rochester Institute of Technology in Rochester, New York.</p>
-              <p>Previous internships and co-ops include EMC, HubSpot, and Involution Studios.</p>
-              <p>Active member of Zeta Tau Alpha, Iota Psi chapter.</p>
-              <p>Willing to fix your shattered smartphone screen.</p>
-              <p>Love running in all weather, but hate waking up to do it.</p>
-              <p>Bagel fan, pizza enthusiast and coffee addict.</p>
-              <p>To learn more about me professionally, take a look at my <a  href="https://resume.creddle.io/resume/4tqptjm6x7" style="width: 50px">resume</a>.</p>
-              <img class="media-object hidden-desktop" src="images/mudtugme.jpg">
+          <div style="margin-left: 150px;">
+              <h3 >Mud Tug</h3>
+              <a href="http://mudtug.rit.edu" target="_blank">mudtug.rit.edu</a>
+              <h6>The Context</h6>
+              <p>Every fall, my sorority co-hosts Mud Tug, a 10 v. 10 tug-of-war tournament in the mud. The event is in its 21st year, and within the last 4 years averaged about 1600 participants.</p>
+              <h6>The Problem</h6>
+              <p>Tracking teams by hand and haphazardly throwing teams together on a whiteboard doesn't scale for an event that has nearly 2000 participants and grows each year. There needed to be a more streamlined system for checking in, registering, and utilizing that information for matching up teams to tug.</p>
+              <h6>The Project</h6>
+              <img class="media-object pull-left" src="images/registerteamscreen.png">
+              <p>The first release of the website supported the registation of teams by an admin. Teams could then skip the registration line the day of the event and quickly be checked in by a quick search of team names already registered. Only teams who have checked in or regsitered that day were added to the preliminary rounds, this prevented no shows and reduced the number of forfeits throughout the day.</p>
+              <h6>What's Next?</h6>
+              <p>The first release of the website had several bugs that caused problems when matching teams through the web app, so we ended up using our manual back up plan that involved tracking teams through a Google Spreadsheet. The main goal of the second release is to identify and resolve those problems, in addition to streamlining the process of pushing code to production. We also were unable to move forward with online registration for all particpants due to administrative issues; this is also a high priority for the next release. After bug fixes and exhaustive testing of the core functionality, I would like to explore what options exist for real time viewing of how teams are being matched and how long participants will have to wait until they get to tug.</p>
+
           </div>
         </div>
       </div>
@@ -76,6 +74,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="assets/js/docs.min.js"></script>
-  
+
 
 <div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1404919428012">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1404919428012" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div></body></html>
