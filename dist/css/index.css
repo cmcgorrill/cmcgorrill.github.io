@@ -1,5 +1,5 @@
-a {
-	width:100px;
+a.image {
+	width:40%;
 	height:auto;
 }
 a > img {
