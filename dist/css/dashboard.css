@@ -35,7 +35,7 @@ p {
 @media (min-width: 768px) {
   .sidebar {
     position: fixed;
-    top: 140;
+    top: 150;
     bottom: 0;
     left: 0;
     z-index: 1000;
@@ -45,7 +45,7 @@ p {
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
     background-color: #009C96;
     border-right: 1px solid #eee;
-    height: 290px;
+    height: 350px;
     
   }
 }
@@ -54,11 +54,10 @@ p {
 .nav-sidebar {
   margin-right: -21px; /* 20px padding + 1px border */
   margin-bottom: 20px;
-  margin-left: -20px;
+  /*margin-left: -20px;*/
 }
 .nav-sidebar > li > a {
   padding: 20px;
-  padding-left: 20px;
   color:#ffffff;
   font-family: 'Cabin', sans-serif;
   font-weight: 400;
