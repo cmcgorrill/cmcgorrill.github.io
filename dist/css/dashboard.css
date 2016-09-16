@@ -8,7 +8,7 @@ body {
 }
 
 a, a:hover {
-  color: #009C96;
+  color: #4EA355;
 }
 
 p {
@@ -43,7 +43,7 @@ p {
     padding: 20px;
     overflow-x: hidden;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: #009C96;
+    background-color: #4EA355;
     border-right: 1px solid #eee;
     height: 360px;
     
@@ -68,7 +68,7 @@ p {
 .nav-sidebar > .active > a,
 .nav-sidebar > li > a:hover,
 .nav-sidebar > li > a:focus {
-  color: #009C96;
+  color: #4EA355;
   background-color: #fff;
 }
 
@@ -91,7 +91,7 @@ p {
 }
 
 .l .first-name {
-  color: #009C96;
+  color: #4EA355;
 }
 
 .l .last-name {
