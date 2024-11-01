@@ -45,7 +45,7 @@ export default function Home() {
           <div className="flex flex-col items-start justify-center gap-8">
             <h3 className="text-white text-xl font-bold max-w-2xl text-left">What I say about me</h3>
             <p className="text-white text-lg max-w-2xl text-left">
-              I like to build things. I'm drawn to UI because it's the most tangible part of software. 
+              I like to build things. I&apos;m drawn to UI because it&apos;s the most tangible part of software. 
               I have a love for simplicity and elegance in both the way I work and the products I build.
               Lately, the tools of choice have been React, TypeScript, and Next.js.
             </p>
@@ -53,7 +53,7 @@ export default function Home() {
           <div className="flex flex-col items-end justify-center gap-8">
             <h3 className="text-white text-xl font-bold max-w-2xl text-right">What AI says about me</h3>
             <p className="text-white text-lg max-w-2xl text-right">
-              I'm a software engineer with a passion for building elegant, user-friendly applications. 
+              I&apos;m a software engineer with a passion for building elegant, user-friendly applications. 
               With experience in frontend development, I specialize in creating responsive web applications 
               using modern technologies like React, TypeScript, and Next.js.
             </p>
@@ -73,7 +73,7 @@ export default function Home() {
       </div>
       <div className="h-screen flex flex-col items-center justify-center gap-1">
         <p className="text-white text-lg max-w-2xl text-center">
-          I'm always open to new opportunities, so feel free to reach out.
+          I&apos;m always open to new opportunities, so feel free to reach out.
         </p>
         <p className="text-white text-lg max-w-2xl text-center">
           <a href="https://www.linkedin.com/in/connor-mcgrew/" className="text-white font-bold">My LinkedIn </a> 
