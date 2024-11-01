@@ -79,9 +79,9 @@ export default function Home() {
           I&apos;m always open to new opportunities, so feel free to reach out.
         </p>
         <p className="text-white text-lg max-w-2xl text-center">
-          <a href="https://www.linkedin.com/in/connor-mcgrew/" className="text-white font-bold" aria-label="Visit my LinkedIn profile">My LinkedIn </a> 
+          <a href="https://www.linkedin.com/in/courtneymcgorrill/" target="_blank" rel="noopener noreferrer" className="text-white font-bold" aria-label="Visit my LinkedIn profile">My LinkedIn </a> 
           is an easy way to reach me and get a snapshot of my work experience. If email is more your style,  
-          <a href="mailto:cmcg429@gmai.com" className="text-white font-bold" aria-label="Send me an email"> cmcg429@gmail.com</a>.
+          <a href="mailto:cmcg429@gmai.com" target="_blank" className="text-white font-bold" aria-label="Send me an email"> cmcg429@gmail.com</a>.
         </p>
         <p className="text-white text-lg max-w-2xl text-center">
           Be sure to let me know how you found me; hope to hear from you soon.
