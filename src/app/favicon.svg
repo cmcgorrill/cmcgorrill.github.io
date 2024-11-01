@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <rect width="200" height="200" fill="#2c3e50"/>
+  
+  <!-- Large C with ultra-thin weight -->
+  <text x="100" y="155" font-family="Helvetica Neue, Helvetica, Arial" font-size="160" font-weight="100" style="font-stretch: expanded;" text-anchor="middle" fill="white">C</text>
+  
+  <!-- Adjusted McG position -->
+  <text x="105" y="100" font-family="Arial" font-size="24" text-anchor="middle" alignment-baseline="middle" fill="white">McG</text>
+</svg>
